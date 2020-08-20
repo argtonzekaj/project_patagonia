@@ -1,7 +1,57 @@
-.box {
-  background-color: red;
-  color: #fff;
+body,
+input,
+select,
+textarea,
+option{
+  font-family: 'Poppins', sans-serif;
 }
-.box2 {
-  background-color: blue;
+.headerWrap{
+  display: flex;
+  flex-direction: column;
+  margin-top: 69px;
+  max-width: 864px;
+  margin: 0 auto;
+  width: 100%;
+}
+.header_nav{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 29px;
+}
+.header_nav li{
+  margin-left: 29px;
+  transition: all 0.3s ease-in-out;
+}
+.header_nav li:hover{
+  padding: 5px 5px;
+  background-color: grey;
+}
+.patagonia_wrapper{
+  max-width: 864px;
+  margin: 0 auto;
+  width: 100%;
+}
+.patagonia_content{
+  max-width: 574px;
+  margin: 0 auto;
+  width: 100%;
+}
+.patagonia_content h2{
+  font-size:  90px;
+  font-weight: 500;
+  color: #242635;
+  line-height: 102px;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-top: 143px;
+  margin-bottom: 30px;
+}
+.patagonia_content p{
+  font-size: 22px;
+  width: 573.5px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #242635;
+  text-align: center;
+  margin-bottom: 47px;
 }
